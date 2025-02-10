@@ -34,7 +34,63 @@ a:hover {
 }
 
 .paper {
-    border-left: 1px solid #ddd;
+    border-left: 2px solid #ddd;
+    padding-left: 15px;
+    margin-bottom: 1.2rem;
+    transition: border-left-color 0.3s ease;
+}
+
+.paper:hover {
+    border-left-color: #a00;
+}
+
+.papertitle {
+    font-size: 14pt;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.header {
+    font-size: 20pt;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.about {
+    font-size: 13pt;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+.pub {
+    padding-left: 20px;
+}
+
+.pub li {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.name {
+    font-size: 26pt;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.menulink {
+    color: #3498db;
+    font-size: 14pt;
+    transition: color 0.3s ease;
+}
+
+.menulink:hover {
+    color: #2980b9;
+    text-decoration: none;
 }
 
 .fixed-posi .fa {
@@ -91,3 +147,44 @@ a:hover {
           color: #111;
           text-decoration: underline;
     } */
+.work-experience {
+    margin-top: 1rem;
+}
+
+.experience-item {
+    margin-bottom: 1.5rem;
+}
+
+.job-title {
+    font-weight: 600;
+    font-size: 14pt;
+    color: #2c3e50;
+}
+
+.company {
+    font-weight: 500;
+    color: #3498db;
+}
+
+.duration {
+    color: #7f8c8d;
+    font-size: 11pt;
+}
+
+.job-type {
+    color: #27ae60;
+    font-size: 11pt;
+}
+
+.location {
+    color: #7f8c8d;
+    font-size: 11pt;
+}
+
+.skills {
+    display: block;
+    margin-top: 0.5rem;
+    color: #34495e;
+    font-size: 11pt;
+    line-height: 1.4;
+}
